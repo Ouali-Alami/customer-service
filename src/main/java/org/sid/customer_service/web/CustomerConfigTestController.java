@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RefreshScope
+@RefreshScope //spy config of this bean
 public class CustomerConfigTestController {
 
     @Value("${global.params.p1}")
